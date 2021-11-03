@@ -1,0 +1,26 @@
+.navBar{
+    /* display: flex;
+    justify-content: space-between; */
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    height: 100px;
+    padding-top: 30px;
+    
+
+}
+
+.ulNav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    height: 40px;
+    
+}
+
+li{
+    margin-bottom: 29px;
+   
+  
+}

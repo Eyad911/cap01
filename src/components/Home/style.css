@@ -1,0 +1,11 @@
+.homePage{
+    text-align:center;
+    width: 60%;
+    position:relative;
+border: 1px solid black;
+margin: auto;
+margin-top: 20px;
+/* text-align: justify; */
+padding: auto;
+border-radius: 10px;
+}
