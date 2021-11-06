@@ -1,8 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import { Home } from './components/Home';
 import { Nav } from "./components/Nav";
 import { Game } from "./components/Game";
+import {Instruction} from "./components/Instruction"
+import { Route,Routes } from 'react-router-dom';
 
 
 
@@ -10,8 +11,14 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      <Game/>
-      <Home/>
+      
+      <Routes>
+      <Route exact path='/' element ={<Home />}/>
+      <Route exact path='/Game' element ={<Game />}/>
+      <Route exact path='/Instruction' element ={< Instruction/>}/>
+      
+      </Routes>
+      
     </div>
   );
 }

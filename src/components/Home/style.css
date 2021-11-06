@@ -8,4 +8,25 @@ margin-top: 20px;
 /* text-align: justify; */
 padding: auto;
 border-radius: 10px;
+
+}
+#start-btn{
+    margin: auto;
+    padding: auto;
+    display: block;
+margin-top: 20px;
+margin-bottom: 20px;
+    font-size: 4.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#start-btn:hover{
+    cursor: pointer;
+}
+.homePage img {
+
+    height: 350px;
+}
+button{
+    text-decoration: none;
 }
